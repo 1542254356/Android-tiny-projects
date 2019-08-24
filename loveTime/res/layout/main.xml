@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="top"
+	android:orientation="vertical"
+	android:background="@drawable/image_1">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="5:56:43"
+		android:layout_marginStart="29dp"
+		android:textSize="40sp"
+		android:layout_marginTop="37dp"
+		android:textColor="#414096"
+		android:textColorHighlight="#CA8B87"
+		android:id="@+id/shj"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="2016年6月23日"
+		android:layout_marginStart="35dp"
+		android:layout_marginTop="11dp"
+		android:textSize="20sp"
+		android:textColor="#CD877A"
+		android:id="@+id/rq"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="星期天"
+		android:layout_marginStart="51dp"
+		android:layout_marginTop="20dp"
+		android:textSize="22sp"
+		android:textColor="#A83030"
+		android:textStyle="bold"
+		android:id="@+id/xq"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="月月我爱你🌙"
+		android:layout_marginStart="13dp"
+		android:textColor="#FF0F00"
+		android:id="@+id/loveText"/>
+
+</LinearLayout>
+
