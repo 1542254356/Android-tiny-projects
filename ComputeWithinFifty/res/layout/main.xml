@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="你的得分是：0分"
+			android:layout_marginEnd="10dp"
+			android:id="@+id/mainTextView3"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="剩余时间:60秒"
+			android:id="@+id/mainTextView2"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1/10"
+			android:gravity="center"
+			android:id="@+id/mainTextView4"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:text="32+37="
+		android:textSize="80sp"
+		android:id="@+id/mainTextView1"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/mainEditText1"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="重新出题"
+			android:onClick="Rush"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="确定"
+			android:layout_marginStart="30dp"
+			android:onClick="Ok"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
