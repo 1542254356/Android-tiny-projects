@@ -1,0 +1,1 @@
+安卓原生不支持显示gif动图，此demo是实现的gifView。
